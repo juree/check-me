@@ -72,12 +72,12 @@ Data structure will certainly be subject to change. Currently it looks like this
 [
   {
     "project": "some_project",  
-    "id": "check_me_310514"
+    "id": "check_me_310514",
     "date": "31.05.2014",
     "start_time": "22:20:57", 
     "end_time": "22:51:11",
     "total_timespan": 1772, 
-    "total_workspan": 1814  
+    "total_workspan": 1814, 
     "pause": [
       {
         "duration": 17, 
