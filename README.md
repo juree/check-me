@@ -17,10 +17,11 @@ It works on Ubuntu. Currently it can track time spent working, including pauses.
 #### Work in progress:
 
 Feature | Coming sometime until
-_______ | _____________________
+------- | ---------------------
 Add project information | 8th June
 Track code statistics (if using git) | 8th June
 Multiple starts and stops in a day (which means multiple projects) | 8th June
+
 - *please note this is my current projection and can change at any given time*
 
 ## Setup:
