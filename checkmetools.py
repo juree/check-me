@@ -12,15 +12,14 @@ def initDataObj(project_name=None):
 	work_id = createID()
 
 	data_obj =	[{
+					'project': None,
+					'id': work_id,
 					'date': date,
 					'start_time': start_time,
 					'end_time': None,
-					'project': None,
-					'pause': None,
-					'total_workspan': None,
 					'total_timespan': None,
-					'id': work_id,
-					'code_statistics': None
+					'total_workspan': None,
+					'pause': None
 				}]
 
 	return data_obj

@@ -71,6 +71,8 @@ Data structure will certainly be subject to change. Currently it looks like this
 ```json
 [
   {
+    "project": "some_project",  
+    "id": "check_me_310514"
     "date": "31.05.2014",
     "start_time": "22:20:57", 
     "end_time": "22:51:11",
@@ -92,9 +94,7 @@ Data structure will certainly be subject to change. Currently it looks like this
         "end": "22:50:17", 
         "start": "22:49:57"
       }
-    ], 
-    "project": "some_project",  
-    "id": "check_me_310514",
+    ]
   }
 ]
 ```
