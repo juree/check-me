@@ -1,0 +1,6 @@
+# project files used by Sublime Text Editor:
+checkMe.sublime-project
+checkMe.sublime-workspace
+
+# files in data directory
+data/**
