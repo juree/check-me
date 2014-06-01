@@ -2,7 +2,7 @@ import json, time, os
 
 #### FUNCTION DEFINITIONS
 def sec2hour(seconds):
-	return time.strftime("%H ur, %M minut in %S sekund", time.gmtime(seconds))
+	return time.strftime("%H hours, %M minutes and %S seconds", time.gmtime(seconds))
 
 #### MAIN
 # get files current directory
@@ -14,6 +14,6 @@ data_path = directory + "/data/check_me_" + time.strftime("%d%m%y") + ".json"
 
 with open(data_path, "r") as data_json:
 	working_time = json.load(data_json)
-	print 'Delal si od ' + working_time[0]['start_time'] + ' do ' + working_time[0]['end_time']
-	print 'To skupaj znese ' + sec2hour(working_time[0]['total_workspan'])
-	print 'Brez pavz je to ' + sec2hour(working_time[0]['total_timespan'])
+	print 'You worked from ' + working_time[0]['start_time'] + ' to ' + working_time[0]['end_time']
+	print 'That means ' + sec2hour(working_time[0]['total_workspan'])
+	print 'Not counting pauses: ' + sec2hour(working_time[0]['total_timespan'])
