@@ -4,3 +4,7 @@ checkMe.sublime-workspace
 
 # files in data directory
 data/**
+
+# optimized python files with extensions .pyc and .pyo
+*.pyc
+*.pyo
